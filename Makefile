@@ -10,8 +10,5 @@ main:
 file2:
 	${CC} file2.c -o file2
 
-file3:
-	${CC} file3.c -o file3
-
 clean:
 	rm -rf main file2 file3
